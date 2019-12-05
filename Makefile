@@ -1,4 +1,4 @@
-test: Hpattern.c
-	gcc -o test Hpattern.c
+test: hpattern.c
+	gcc -o hpattern hpattern.c
 clean:
 	rm -f *.o
